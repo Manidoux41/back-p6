@@ -20,7 +20,7 @@ const normalizePort = (val) => {
   }
   return false;
 };
-const port = normalizePort(process.env.PORT || process.env.SERVER_CONNECT);//return port valid//errorHandler:look error
+const port = normalizePort(process.env.PORT || 3000);//return port valid//errorHandler:look error
 app.set("port", port);
 /*************************error search and management then save in the server**********************/
 const errorHandler = (error) => {
