@@ -1,6 +1,6 @@
 {
     "version": 2,
-    "name": "back-p5",
+    "name": "back-p6",
     "builds": [
       {
         "src": "server.js",
